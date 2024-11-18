@@ -36,7 +36,7 @@ public class TestStandTutorPage4_1 {
     @BeforeAll
     public static void openSelenoidContainer() throws MalformedURLException {
         ChromeOptions browser = new ChromeOptions();
-        browser.setCapability("browserVersion", "114.0");
+        browser.setCapability("browserVersion", "128.0");
         Map<String, Object> map = new HashMap<>();
         map.put("enableVnc", true);
         map.put("enableLog", true);
